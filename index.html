@@ -17,13 +17,13 @@
 </head>
 <body class="body">
     <section class="container">
-        <form class="form">
+        <form class="form js-form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Currency converter 😉</legend>
                 <p>
                     <label class="form__label">
                         <span class="form__labelText">Currency:</span>
-                        <select class="form__input">
+                        <select class="form__input js-currency">
                             <option value="USD">USD</option>
                             <option value="EUR">EUR</option>
                             <option value="GBP">GBP</option>
@@ -33,17 +33,18 @@
                 <p>
                     <label class="form__label">
                         <span class="form__labelText">Currency value:</span>
-                        <input class="form__input form__input--readonly" readonly>
+                        <input class="form__input form__input--readonly js-currentValue" readonly>
                     </label>
                 </p>
                 <p>
                     <label class="form__label">
-                        <span class="form__labelText">Amount to change:</span>
-                        <input type="number" step="0.1" min="1" class="form__input" required>
+                        <span class="form__labelText">Amount to change (PLN):</span>
+                        <input type="number" step="0.1" min="1" class="form__input js-amount" required>
                     </label>
                 </p>
             </fieldset>
-            <button class="form__button">Change</button>
+            <button class="form__button js-changeButton">Change</button>
+            <p class="form__reciveParagraph js-reciveElement"></p>
         </form>
     </section>
 </body>
