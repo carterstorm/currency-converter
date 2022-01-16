@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency converter</title>
 </head>
 <body>
-    
+    <section class="container">
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Currency converter</legend>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText">Currency:</span>
+                        <select class="form__input">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText">Currency value:</span>
+                        <input class="form__input">
+                    </label>
+                </p>
+                <p>
+                    <label class="form__label">
+                        <span class="form__labelText">Amount to change:</span>
+                        <input class="form__input">
+                    </label>
+                </p>
+            </fieldset>
+            <button class="form__button">Change</button>
+        </form>
+    </section>
 </body>
 </html>
