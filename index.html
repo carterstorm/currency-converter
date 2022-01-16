@@ -33,13 +33,13 @@
                 <p>
                     <label class="form__label">
                         <span class="form__labelText">Currency value:</span>
-                        <input class="form__input">
+                        <input class="form__input form__input--readonly" readonly>
                     </label>
                 </p>
                 <p>
                     <label class="form__label">
                         <span class="form__labelText">Amount to change:</span>
-                        <input class="form__input">
+                        <input type="number" step="0.1" min="1" class="form__input" required>
                     </label>
                 </p>
             </fieldset>

@@ -37,6 +37,10 @@
     text-align: center;
 }
 
+.form__input--readonly {
+    background-color: #eee;
+}
+
 .form__button {
     width: 100%;
     padding: 10px 20px;
