@@ -8,7 +8,7 @@
 .form__fieldset {
     padding: 15px 20px;
     margin-bottom: 15px;
-    border: 1px solid #aaa;
+    border: 1px solid #000;
     border-radius: 5px;
 }
 
@@ -32,7 +32,7 @@
     max-width: 350px;
     width: 100%;
     padding: 10px;
-    border: 1px solid #aaa;
+    border: 1px solid #000;
     border-radius: 5px;
     text-align: center;
 }
@@ -53,4 +53,6 @@
 .form__reciveParagraph {
     text-align: center;
     line-height: 1.5;
+    height: 50px;
+    padding-top: 20px;
 }
